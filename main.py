@@ -1,4 +1,4 @@
-code = '''
+cod
 from kivy.app import App
 from kivy.uix.boxlayout import BoxLayout
 from kivy.uix.label import Label
@@ -192,7 +192,6 @@ class MainApp(App):
 
 if __name__ == '__main__':
     MainApp().run()
-'''
 
 with open("main.py", "w") as f:
     f.write(code)
